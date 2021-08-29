@@ -1,0 +1,270 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+/*font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;*/
+
+a,a:hover{
+	text-decoration: none;
+}
+.container{width: 1140px;
+	margin: 0 auto;
+
+}
+/*banner section*/
+.banner{
+	height: 100vh;
+	width: 100%;
+	background: url('image/backround.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+.header{
+	padding: 26px 0px;
+}
+.menu{
+	text-align: right;
+
+}
+
+.h-menu{
+	padding: 20px 0px;
+}
+
+.h-menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 32px;
+}
+.h-menu ul li a{
+	text-transform: uppercase;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
+	color: #715129;
+}
+.h-contact span{
+	font-family: 'Montserrat', sans-serif;
+	color: #715129;
+	font-size: 16px;
+	font-weight: 600;
+	margin-left: 14px;
+	vertical-align: middle;
+}
+.h-contact img{
+	vertical-align: middle;
+}
+.content{
+	display: flex;
+	justify-content: space-between;
+}
+.b-right img{
+	max-width: 100%;
+	height: auto;
+}
+.b-right{
+	flex-basis:50% ;
+}
+.b-left{
+	flex-basis: 50%;
+	margin-top: 90px;
+}
+.b-left p{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 24px;
+	color: #492F10;
+	border: 5px dashed #492F10;
+	display: inline-block;
+	padding: 8px 14px;
+
+}
+.b-left h1{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 114px;
+	color: #492F10;
+	text-transform: uppercase;
+	text-shadow: 5px 4px white;
+	letter-spacing: 5px;
+}
+
+.b-left h2{
+     font-family: 'Alfa Slab One', cursive;
+	color: #492F10;
+	font-size: 56px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-shadow: 5px 4px white;
+}
+
+
+
+.services{
+	width: 100%;
+	padding: 60px 0px;
+}
+.s-item{
+	display: flex;
+}
+
+}
+.s-item img{
+	max-width: 100%;
+	height: auto;
+}
+.s-left, .s-right{
+	flex-basis: 50%;
+}
+.s-left{
+	margin-right:30px;
+}
+
+.s-content{
+	margin: 15px;
+	position: relative;
+}
+
+.img-text{
+	position: absolute;
+	top: 32px;
+	left: 38px;
+}
+.img-text h3{
+
+	font-family: 'Bebas Neue', cursive;
+	color: white;
+	font-size: 28px;
+
+}
+
+.img-text h2{
+	font-family: 'Bebas Neue', cursive;
+	color: white;
+	font-size: 36px;
+	letter-spacing: 1px;
+}
+.second{
+	width: 144px;
+	line-height: 32px;
+}
+.sss{
+	margin-bottom: 30px;
+}
+/*.midle{
+
+	margin-left: 540px;
+	margin-top: 150px;
+
+}*/
+.burger-gallary{
+	width: 100%;
+	padding: 60px 0px;
+	text-align: center;
+}
+.alert{
+	font-family: 'Bebas Neue', cursive;
+	background: #FF7600;
+	color: #402218;
+	padding: 6px 14px;
+}
+.gallary-title h2{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 50px;
+	color: #3d2514;
+	text-transform: uppercase;
+	margin: 16px 0;
+
+}
+.gallary-title p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #3d2514;
+	margin: 0 32px;
+}
+.gallary-item{
+	display: flex;
+	margin: 72px 0px;
+
+
+}
+.item{
+	text-align: center;
+
+}
+.item img{
+	max-width: 100%;
+	height: auto;
+
+}
+.item h3{
+	font-family: 'Bebas Neue', cursive;
+	text-transform: uppercase;
+	color: ##3d2514;
+	font-size: 38px;
+
+}
+.item p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #3d2514;
+	margin: 22px 0px;
+
+}
+.item button{
+	font-family: 'Alfa Slab One', cursive;
+	background-color: #BE0000;
+	color: white;
+	border-style: none;
+    padding: 18px 40px;
+    text-transform: uppercase;
+    margin-top: 7px;
+    border-radius: 2px;
+}
+.slider-section{
+	width: 100%;
+	padding: 50px 0px;
+}
+.slider-content{
+	display: flex;
+	padding: 32px;
+	box-shadow: 10px 10px 20px rgb(0 0 0 / 20%);
+}
+.slider-left, .slider-right{
+	flex-basis: 50%;
+}
+.slider-left h5{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #000;
+
+}
+.slider-left h2{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 42px;
+	text-transform: uppercase;
+	color: #3d2514;
+	margin: 16px 0px;
+
+}
+.slider-left p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+	color: #3d2514;
+}
+.slider-right img{
+	max-width: 100%;
+	height: auto;
+}
